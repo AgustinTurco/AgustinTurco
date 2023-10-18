@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2? family= Montserrat:wght@500 & family= Playfair+Display & display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif; 
+  overflow-x: hidden;
+}
+.logo{
+    width: 20%;
+    margin-top: -10px;
+}
+
+.wrapper{
+    width: 100vw;
+    background: linear-gradient(90deg, #191c32 0%, #191c32 45%, darkblue 100%);
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+.brand span{
+    color: #8aacff;
+
+}
+
+.menu{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+
+}
+.menu li{
+   list-style: none;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+.menu a:hover{
+    color: #ffffff;
+    background-color: darkblue;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.toggle-menu{
+    display: none;
+}
+
+.main{
+    margin: 0 auto;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+.info{
+    font-size: 2.9em;
+}
+
+.dw-cv{
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+  
+}
+
+.dw-cv:hover{
+    color: white;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 0px 0px 6px #80acff;
+}
+
+.main img{
+    width: 300px;
+    border: 7px solid #6d42c7;
+    border-radius: 500px;
+    margin: 50px;
+}
+
+span{
+    color: #8aacff;
+}
+.content-wave{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: #191c32 ;
+    overflow: hidden;
+    
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-image: url(../IMG/wave.png);
+    background-size: 1000px 100px;
+
+}
+
+
+
+.portfolio-headings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolio-headings h2{
+    margin-top: 100px;
+    font-size: 2.5em;
+    color: black;
+}
+
+.portfolio .container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+
+
+.dw-cv2{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+  
+}
+
+.dw-cv2:hover{
+    color: white;
+    cursor: pointer;
+    background-color: darkblue;
+    box-shadow: 0px 0px 6px #80acff;
+    
+}
+
+.card-title1,.card-title2,
+.card-title3{
+    padding: 20px;
+
+}
+
+.content-img1{
+    width: 350px;
+    border-radius: 10px;
+    
+}
+
+.content-img2{
+    width: 350px;
+    border-radius: 10px;
+}
+.content-img3{
+    width: 340px;
+    border-radius: 10px;
+}
+.card-content1 {
+    display: none; /* Inicialmente oculto */   
+}
+
+  /* Estilos para el contenedor de la tarjeta en hover */
+.card-title1:hover .card-content3 {
+    display: block; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 200px;
+    padding: 20px;
+}
+.card-content2 {
+    display: none; /* Inicialmente oculto */   
+}
+
+  /* Estilos para el contenedor de la tarjeta en hover */
+.card-title2:hover .card-content3 {
+    display: block; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 200px;
+    padding: 20px;
+}
+
+
+.card-content3 {
+    display: none; /* Inicialmente oculto */   
+}
+
+  /* Estilos para el contenedor de la tarjeta en hover */
+.card-title3:hover .card-content3 {
+    display: block; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px 200px;
+    padding: 20px;
+    
+}
+#contact_box{
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+    background: linear-gradient(90deg, #191c32 0%, #191c32 45%, darkblue 100%);
+}
+#contact_box-main:hover{
+    box-shadow: 0px 0px 6px #ffffff;
+}
+
+#contact_box-contact-title{
+  font-family: 'Outfit';
+  color: #F9F6F2;
+  font-size: 3.5rem;
+  text-align: center;
+  line-height: 70px;
+  
+}
+#contact_box-main{
+    background: rgb(81,92,113);
+    background: linear-gradient(90deg, #191c32 0%, #191c32 45%, darkblue 100%); 
+    border-radius: 10px;
+    height: 500px;
+    width: 75%;
+    box-shadow: 0px 0px 6px #ffffff;
+    margin: 40px auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+#contact_box-main hr{
+    outline: 2px solid white;
+    height: 10%;
+}
+  
+#contact_box-info{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#contact_box-info a:hover{
+    border: 5px solid rgb(81,92,113);
+    padding: 10px;
+    border-radius: 10px;
+}
+#contact_box-info div{
+    display: flex;
+    align-items: center;
+}
+#contact_box-info img{
+    margin: 10px;
+    height: 20px;
+    opacity: 70%;
+}
+#contact_box-info h2{
+    font-size: 1.2rem;
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: white;
+    opacity: 70%;
+}
+#address_text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+#contact_box-info,
+#contact_box-form{
+    width: 50%;
+} 
+#contact_box-form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+  
+#contact_box-form h2{
+    font-family: 'Outfit';
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 15px;      
+}
+#contact_box-form label{
+    font-family: 'Outfit';
+    color: white;
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin-bottom: 3px;
+}
+#contact_box-form input{
+    margin-bottom: 10px;
+    font-family: 'REM';
+    height: 35px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.2s ease-in-out;
+    background-color: #36769100;
+    border: 2px solid #367591;
+    color: white;
+    font-size: 1rem;
+}
+#contact_box-form input:focus{
+    height: 40px;
+    transition: 0.2s;
+}
+#contact_box-form input[type="submit"]{
+    margin-top: 10px;
+    height: 35px;
+    width: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+    color: white;
+    background-color: #367691;
+}
+#contact_box-form textarea{
+    background-color: #36769100;
+    border: 2px solid #367591;
+    font-size: 1rem;
+    border-radius: 2px;
+    resize: none;
+    padding: 7px;
+    height: 60px;
+    font-family: 'REM';
+    transition: 0.2s;
+    color: white;
+}
+#contact_box-form textarea:focus{
+    height: 120px;
+    transition: 0.2s;
+}
+#contact_box-form input[type=submit]:hover{
+    color: white;
+    width: 100%;
+    transition: 0.2s;
+}
+#footer_box{
+    width: 100%;
+    
+}
+#footer_box h2{
+    font-size: 2rem;
+    text-align: center;
+    
+    color: white;
+}
+.prfoliop{
+    height: 125vh;
+}
+.tituloleng{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+/*skils*/
+.features{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.features .tarjeta{
+    padding: 1rem;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+.container-lenguaje{
+    background: linear-gradient(90deg, #191c32 0%, #191c32 45%, darkblue 100%);
+}
+
+.features .tarjeta:hover{
+    background-color: #6c42c73d;
+    border-color: #fff;
+    color: white;
+}
+
+.features .tarjeta span{
+    display: inline-block;
+    padding: 2px 9px;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    color: white;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.features .tarjeta span img{
+    width: auto;
+    height: 100px;
+}
+
+.features .tarjeta h4{
+    margin-bottom: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.features .tarjeta p{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.features .tarjeta a{
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.features .tarjeta a:hover{
+    color: #1e40af;
+}
+
+  
+
